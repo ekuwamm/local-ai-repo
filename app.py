@@ -4,6 +4,7 @@ import streamlit as st
 from fpdf import FPDF
 import tempfile
 
+
 # Load model
 model = OllamaLLM(model='llama3.2')
 
